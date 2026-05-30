@@ -7,3 +7,7 @@ resource "azurerm_resource_group" "sample" {
   name     = "sample-resources"
   location = "East Europe"
 }
+resource "azurerm_resource_group" "resume" {
+  name     = "resume-resources"
+  location = "West Europe"
+}
